@@ -3,15 +3,15 @@ def return_10
 end
 
 def add(a, b)
-  a=1
-  b=2
+  a = 1
+  b = 2
   sum = a + b
   return sum
 end
 
 def subtract(a, b)
-  a= 10
-  b=5
+  a = 10
+  b = 5
   difference = a - b
   return difference
 end
@@ -49,11 +49,20 @@ def add_string_as_number(a, b)
   return sum_of_strings
 end
 
-def number_to_full_month_name(1, 3, 9)
-  1 ="January"
-  3 = "March"
-  9 = "September"
-  return 1
-  return 3
-  return 9
+def number_to_full_month_name(first_month_string, third_month_string, ninth_month_string)
+  # first_month_string = number_to_full_month_name( 1 )
+  # third_month_string = number_to_full_month_name( 3 )
+  # ninth_month_string = number_to_full_month_name( 9 )
+  first_month_string = "January"
+  third_month_string = "March"
+  ninth_month_string = "September"
 end
+#
+# def test_substring()
+#   first_month_string = number_to_short_month_name( 1 )
+#   third_month_string = number_to_short_month_name( 3 )
+#   ninth_month_string = number_to_short_month_name( 9 )
+#   assert_equal( "Jan", first_month_string )
+#   assert_equal( "Mar", third_month_string )
+#   assert_equal( "Sep", ninth_month_string )
+# end
